@@ -5,7 +5,7 @@ except ImportError:
 
 setup(
     name='max7301',
-    version='1.0.0',
+    version='1.0.1',
     description='MAX7301 driver',
     author='Tobias Schneider',
     author_email='schneider@xtort.eu',
