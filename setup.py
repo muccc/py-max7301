@@ -19,5 +19,6 @@ setup(
     ],
     keywords='max7301',
     license='GPLv3+',
-    install_requires=['spidev']
+    install_requires=['spidev'],
+    scripts=['scripts/py-max7301-rpi-spi-setup']
 )
