@@ -11,10 +11,9 @@ setup(
     author_email='schneider@xtort.eu',
     url='https://github.com/muccc/py-max7301',
     packages=['max7301'],
-    long_description=open('README.md').read(),
+    long_description=open('README').read(),
     classifiers=[
-        "License :: OSI Approved :: GNU General Public License v3 or ",
-        "later (GPLv3+)",
+        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
         "Programming Language :: Python :: 2",
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Libraries :: Python Modules",
