@@ -46,7 +46,7 @@ class MAX7301(object):
         return value
     
     def _get_conf_register_for_pin(self, pin):
-        return (pin-4)/4 + 0x09
+        return (pin-4)//4 + 0x09
  
     def _get_value_register_for_pin(self, pin):
         return 0x20 + pin
